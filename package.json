@@ -1,0 +1,19 @@
+{
+  "name": "natenode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js",
+    "sync": "browser-sync start --proxy localhost:8080 --files \"*.html, *.css, *.js, public/**/*\""
+  },
+  "keywords": [],
+  "type": "module",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.29.3"
+  }
+}

@@ -1,0 +1,80 @@
+body {
+	background-color: powderblue;
+	display: flex;
+	font-family: "Fira Code", monospace;
+
+	gap: 12px;
+}
+
+p {
+	font-family: "Varela Round" monospace;
+	font-size: 16px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 200px;
+	background-color: #f1f1f1;
+}
+
+li a{
+	display: block;
+	color: black;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+
+li a:hover{
+	background-color: #555555;
+	color: white;
+}
+
+li a.active
+{
+	background-color: #369fbf;
+	color: white;
+}
+
+.content
+{
+	background-color: #f1f1f1f1;
+	color: black;
+	flex: 1;
+
+	border-style: solid;
+	border-radius: 12px;
+	border-color: #999999;
+	border-width: 2px;
+	
+	padding-left: 16px;
+
+	overflow-y: auto;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.navBar {
+	background-color: #f1f1f1;
+	display: flex;
+
+	border-style: solid;
+	border-color: #999999;
+	border-width: 2px;
+	border-radius: 2px;
+
+	flex-shrink: 0;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.box {
+	background-color: #555555;
+	padding: 12px;
+	max-width: 600px;
+	color: white;
+	border-style: solid;
+	border-radius: 10px;
+	border-color: #b1b1b1b1;
+	font-family: "monospace";
+}
+ 
